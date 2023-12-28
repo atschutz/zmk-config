@@ -79,11 +79,11 @@ As such, those are in use within the default layer at this time.*/
             // |       |       |       |       |       |       |       |                    |       |       |       | NEXT  | VOL-  | VOL+  | PLAY  |
 
             bindings = <
-&trans     &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans     &trans     &trans     &trans
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &kp N6  &kp N7     &kp N8     &kp N9     &kp N0     &kp DEL
-&trans     &trans  &trans  &trans  &trans  &trans                    &trans  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH
-&trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &kp PSCRN  &kp PG_DN  &kp SLASH  &trans
-&trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans
+&trans     &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans     &trans    &trans     &trans
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &kp N6  &kp N7     &kp N8     &kp N9    &kp N0     &kp DEL
+&trans     &trans  &trans  &trans  &trans  &trans                    &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
+&trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans    &kp SLASH  &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans    &trans     &trans
             >;
         };
 
@@ -96,11 +96,11 @@ As such, those are in use within the default layer at this time.*/
             // |          |          |          |          |          |          |          |                    |          |          |          |          |          |          |          |
 
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                     &kp F6   &kp F7   &kp F8   &kp F9          &kp F10            &trans
-&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                    &kp F16  &kp F17  &kp F18  &kp F19         &kp F20            &trans
-&trans  &trans   &trans   &trans   &trans   &trans                     &trans   &trans   &trans   &trans          &trans             &trans
-&trans  &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans   &trans   &trans   &trans          &kp C_VOLUME_UP    &kp C_PLAY_PAUSE
-&trans  &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans   &trans   &trans   &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_NEXT
+&kp PAGE_UP    &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                     &kp F6   &kp F7   &kp F8   &kp F9          &kp F10            &kp HOME
+&kp PAGE_DOWN  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                    &kp F16  &kp F17  &kp F18  &kp F19         &kp F20            &kp END
+&trans         &trans   &trans   &trans   &trans   &trans                     &trans   &trans   &trans   &trans          &trans             &kp PRINTSCREEN
+&trans         &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans   &trans   &trans   &trans          &kp C_VOLUME_UP    &kp C_PLAY_PAUSE
+&trans         &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans   &trans   &trans   &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_NEXT
             >;
         };
     };

@@ -21,14 +21,16 @@ As such, those are in use within the default layer at this time.*/
         ctrl_shift: ctrl_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT>;
+            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT>, <&macro_press>;
+
             label = "CTRL_SHIFT";
         };
 
         alt_shift: alt_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT>;
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT>, <&macro_press>;
+
             label = "ALT_SHIFT";
         };
     };

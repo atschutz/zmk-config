@@ -16,6 +16,11 @@
 However, 'LANG1' and 'LANG2' are fully-functioning candidates for 'kana' and 'eisuu' input respectively.
 As such, those are in use within the default layer at this time.*/
 
+
+&lt {
+    tapping-term-ms = <175>;
+};
+
 / {
     macros {
         ctrl_shift: ctrl_shift {
@@ -33,10 +38,6 @@ As such, those are in use within the default layer at this time.*/
 
             label = "ALT_SHIFT";
         };
-    };
-
-    &lt {
-        tapping-term-ms = <175>;
     };
 
     keymap {

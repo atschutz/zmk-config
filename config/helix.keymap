@@ -16,9 +16,7 @@
 However, 'LANG1' and 'LANG2' are fully-functioning candidates for 'kana' and 'eisuu' input respectively.
 As such, those are in use within the default layer at this time.*/
 
-&lt {
-    tapping-term-ms = <200>;
-};
+&lt { tapping-term-ms = <200>; };
 
 / {
     macros {
@@ -51,11 +49,11 @@ As such, those are in use within the default layer at this time.*/
             // | ADJUST |  ESC   |  ALT   |  LGUI  | EISUU  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  KANA  |  LEFT  |  DOWN  |  UP    |  RIGHT |
 
             bindings = <
-&kp GRAVE         &kp N1        &kp N2    &kp N3  &kp N4       &kp N5                                        &kp N6       &kp N7       &kp N8             &kp N9          &kp N0        &kp DEL
-&kp ESCAPE        &kp Q         &kp W     &kp E   &kp R        &kp T                                         &kp Y        &kp U        &kp I              &kp O           &kp P         &kp BSPC
-&kp TAB           &kp A         &kp S     &kp D   &kp F        &kp G                                         &kp H        &kp J        &kp K              &kp L           &kp SEMI      &kp SQT
-&kp LSHFT         &kp Z         &kp X     &kp C   &kp V        &kp B        &kp K_CALCULATOR    &tog 4       &kp N        &kp M        &kp COMMA          &kp PERIOD      &kp UP_ARROW  &kp RET
-&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LALT  &mo 3   &lt 2 SPACE  &lt 2 SPACE  &lt 2 SPACE         &lt 1 SPACE  &lt 1 SPACE  &lt 1 SPACE  &kp RIGHT_CONTROL  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+&kp GRAVE         &kp N1        &kp N2    &kp N3  &kp N4       &kp N5                                   &kp N6       &kp N7       &kp N8             &kp N9          &kp N0        &kp DEL
+&kp ESCAPE        &kp Q         &kp W     &kp E   &kp R        &kp T                                    &kp Y        &kp U        &kp I              &kp O           &kp P         &kp BSPC
+&kp TAB           &kp A         &kp S     &kp D   &kp F        &kp G                                    &kp H        &kp J        &kp K              &kp L           &kp SEMI      &kp SQT
+&kp LSHFT         &kp Z         &kp X     &kp C   &kp V        &kp B        &tog 4         &trans       &kp N        &kp M        &kp COMMA          &kp PERIOD      &kp UP_ARROW  &kp RET
+&kp LEFT_CONTROL  &kp LEFT_GUI  &kp LALT  &mo 3   &lt 2 SPACE  &lt 2 SPACE  &lt 2 SPACE    &lt 1 SPACE  &lt 1 SPACE  &lt 1 SPACE  &kp RIGHT_CONTROL  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
             >;
         };
 
@@ -112,11 +110,11 @@ As such, those are in use within the default layer at this time.*/
 
         gaming_layer {
             bindings = <
-&kp GRAVE  &kp N1    &kp N2    &kp N3  &kp N4     &kp N5                                     &kp N6     &kp N7     &kp N8     &kp N9    &kp N0        &kp DELETE
-&kp ESC    &kp Q     &kp W     &kp E   &kp R      &kp T                                      &kp Y      &kp U      &kp I      &kp O     &kp P         &kp BSPC
-&kp TAB    &kp A     &kp S     &kp D   &kp F      &kp G                                      &kp H      &kp J      &kp K      &kp L     &kp SEMI      &kp APOS
-&kp LSHFT  &kp Z     &kp X     &kp C   &kp V      &kp B      &kp NON_US_BACKSLASH    &tog 4  &kp N      &kp M      &kp COMMA  &kp DOT   &kp UP_ARROW  &kp ENTER
-&kp LCTRL  &kp LGUI  &kp LALT  &mo 3   &kp MINUS  &kp SPACE  &mo 2                   &mo 1   &kp SPACE  &kp EQUAL  &kp RCTRL  &kp LEFT  &kp DOWN      &kp RIGHT
+&kp GRAVE  &kp N1    &kp N2    &kp N3  &kp N4     &kp N5                       &kp N6     &kp N7     &kp N8     &kp N9    &kp N0        &kp DELETE
+&kp ESC    &kp Q     &kp W     &kp E   &kp R      &kp T                        &kp Y      &kp U      &kp I      &kp O     &kp P         &kp BSPC
+&kp TAB    &kp A     &kp S     &kp D   &kp F      &kp G                        &kp H      &kp J      &kp K      &kp L     &kp SEMI      &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C   &kp V      &kp B      &tog 4    &trans  &kp N      &kp M      &kp COMMA  &kp DOT   &kp UP_ARROW  &kp ENTER
+&kp LCTRL  &kp LGUI  &kp LALT  &mo 3   &kp MINUS  &kp SPACE  &mo 2     &mo 1   &kp SPACE  &kp EQUAL  &kp RCTRL  &kp LEFT  &kp DOWN      &kp RIGHT
             >;
         };
     };
